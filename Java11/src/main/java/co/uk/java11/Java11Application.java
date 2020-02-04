@@ -32,5 +32,5 @@ public class Java11Application {
         var map = Map.of("A", 1, "B", 2);
         System.out.println(map);    // {B=2, A=1}
     }
-
+    //https://winterbe.com/posts/2018/09/24/java-11-tutorial/
 }
