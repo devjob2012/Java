@@ -16,7 +16,7 @@ public class Java11Application {
     private static void repeatStrings() {
         String str = "abc\t\n";
         System.out.println(str.repeat(3));
-        var text = "Hello Java 10";
+        var text = "Hello Java 11";
         System.out.println(text);
         var myList = new ArrayList<Map<String, List<Integer>>>();
 
