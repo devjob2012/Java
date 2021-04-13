@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Java 11" />
+        <module name="Java 12" />
+        <module name="JavaAWS" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="APIAutomation" target="1.5" />
+      <module name="APIAutomation (1) (co.uk.automation)" target="1.5" />
+      <module name="Codility" target="1.8" />
+      <module name="Java 11" target="11" />
+      <module name="Java 12" target="11" />
+      <module name="Java12" target="11" />
+      <module name="JavaApp" target="1.5" />
+      <module name="JavaAWS" target="11" />
+      <module name="maze" target="8" />
+      <module name="maze-test" target="1.8" />
+      <module name="spring-cassandra-integration" target="1.8" />
+      <module name="SpringBootDeven" target="11" />
+      <module name="SpringBootRestApiExample" target="11" />
+      <module name="urrum" target="11" />
+      <module name="vehicle-hiring" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Codility" options="-parameters" />
+      <module name="Java 11" options="-parameters" />
+      <module name="Java 12" options="-parameters" />
+      <module name="Java12" options="-parameters" />
+      <module name="JavaAWS" options="-parameters" />
+      <module name="SpringBootDeven" options="-parameters" />
+      <module name="spring-cassandra-integration" options="-parameters" />
+      <module name="urrum" options="-parameters" />
+      <module name="vehicle-hiring" options="-parameters" />
+    </option>
+  </component>
+</project>
